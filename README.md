@@ -30,12 +30,6 @@ source .venv/bin/activate  # Activate the virtual environment (Linux/Mac)
 pip install -e .
 ```
 
-**What happens during installation:**
-- `uv sync` creates a virtual environment and installs HashIndex in "editable mode"
-- This means you can import `hashindex` as a Python library anywhere
-- Changes to the source code are immediately reflected without reinstalling
-- All dependencies (markitdown, httpx, python-dotenv) are installed automatically
-
 ## Usage
 
 ### As a Python Library
@@ -60,14 +54,9 @@ print(answer)
 ### Using the CLI
 
 ```bash
-# Set your API key in .env file
-echo "OPENROUTER_API_KEY=your_key_here" > .env
-
-# Run the interactive CLI
-python main.py
-# or
-uv run hashindex
+cp .env.example .env
 ```
+then just modify the config we support almost all api ! 
 
 ### Advanced Usage
 
