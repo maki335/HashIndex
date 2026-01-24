@@ -9,3 +9,6 @@ __pycache__/
 
 # Environment variables with secrets
 .env
+
+# macOS
+.DS_Store
