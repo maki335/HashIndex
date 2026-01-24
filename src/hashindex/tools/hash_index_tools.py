@@ -1,6 +1,7 @@
 """Tools for hash indexing operations."""
 from typing import Any
-from model.tool import Tool as ToolClass
+
+from hashindex.model.tool import Tool as ToolClass
 
 
 class GenerateHashKey(ToolClass):
