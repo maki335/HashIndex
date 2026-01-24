@@ -1,6 +1,10 @@
 """Tools for querying a hash index."""
-from typing import Any
-from model.tool import Tool as ToolClass
+from typing import TYPE_CHECKING, Any
+
+from hashindex.model.tool import Tool as ToolClass
+
+if TYPE_CHECKING:
+    from hashindex.core import HashIndex
 
 
 class ListKeys(ToolClass):

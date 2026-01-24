@@ -15,11 +15,71 @@ HashIndex is the core indexing engine we use at **Pardus AI** to process 50MB+ C
 ## Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/JasonHonKL/HashIndex.git
+cd HashIndex
+
+# Install with uv
 uv venv
 uv sync
-source .venv/bin/activate
+
+# Or install with pip
+pip install -e .
+```
+
+## Usage
+
+### As a Python Library
+
+```python
+from hashindex import index_pdf, query_index, HashIndex
+
+# Index a PDF document
+index = index_pdf("document.pdf")
+
+# Save the index
+index.save("document.index.json")
+
+# Load an existing index
+index = HashIndex.load("document.index.json")
+
+# Query the index
+answer = query_index(index, "What is the main conclusion?")
+print(answer)
+```
+
+### Using the CLI
+
+```bash
+# Set your API key in .env file
+echo "OPENROUTER_API_KEY=your_key_here" > .env
+
+# Run the interactive CLI
 python main.py
+# or
+uv run hashindex
+```
+
+### Advanced Usage
+
+```python
+from hashindex import HashIndex, Model, ListKeys, GetSummary, GetContent
+
+# Create a custom model
+model = Model(model="anthic/claude-3.5-sonnet")
+
+# Work with index objects directly
+index = HashIndex()
+# ... customize indexing logic ...
+
+# Use verbose=False for silent operation
+from hashindex import index_pdf, query_index
+index = index_pdf("document.pdf", verbose=False)
+answer = query_index(index, "Your question", verbose=False)
+
+# Access pages directly
+for key, obj in index.PageTable.items():
+    print(f"{key}: {obj.summary}")
 ```
 
 ## Comparative Analysis

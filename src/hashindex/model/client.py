@@ -4,7 +4,7 @@ from typing import Literal
 
 import httpx
 
-from .types import (
+from hashindex.model.types import (
     CompletionResponse,
     Function,
     Message,
@@ -153,7 +153,6 @@ class Model:
                 last_exception = e
                 continue
 
-        # All retries exhausted
         raise Exception(
             f"Failed after {max_retries} attempts. Last error: {last_exception}"
         ) from last_exception
