@@ -1,0 +1,11 @@
+# Python virtual environment directory
+.venv/
+
+# Python version file managed by uv
+.python-version
+
+# Python cache directory
+__pycache__/
+
+# Environment variables with secrets
+.env

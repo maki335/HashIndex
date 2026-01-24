@@ -1,0 +1,11 @@
+[project]
+name = "hashindex"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "markitdown[pdf]>=0.1.4",
+    "httpx>=0.28.0",
+    "python-dotenv>=1.0.0",
+]
