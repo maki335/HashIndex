@@ -19,13 +19,22 @@ HashIndex is the core indexing engine we use at **Pardus AI** to process 50MB+ C
 git clone https://github.com/JasonHonKL/HashIndex.git
 cd HashIndex
 
-# Install with uv
-uv venv
-uv sync
+# Install with uv (recommended - faster and more reliable)
+uv venv                    # Create virtual environment
+uv sync                    # Install dependencies and package in editable mode
+source .venv/bin/activate  # Activate the virtual environment (Linux/Mac)
+# or
+.venv\Scripts\activate     # Activate the virtual environment (Windows)
 
-# Or install with pip
+# Alternatively, install with pip
 pip install -e .
 ```
+
+**What happens during installation:**
+- `uv sync` creates a virtual environment and installs HashIndex in "editable mode"
+- This means you can import `hashindex` as a Python library anywhere
+- Changes to the source code are immediately reflected without reinstalling
+- All dependencies (markitdown, httpx, python-dotenv) are installed automatically
 
 ## Usage
 
